@@ -1,4 +1,14 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import "bootstrap/dist/js/bootstrap.bundle";
 
-createApp(App).mount('#app')
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
+
+createApp(App)
+  .use(router)
+  .mount("#app");
+
+/**
+ * vue router
+ * @link https://www.vuemastery.com/blog/vue-router-a-tutorial-for-vue-3/
+ */
