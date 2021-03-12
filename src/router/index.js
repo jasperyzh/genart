@@ -8,6 +8,7 @@ import TheMidi from "@/play/TheMidi.vue";
 import TailwindStart from "@/play/TailwindStart.vue";
 import AnchorScrolling from "@/play/AnchorScrolling.vue";
 import MapTooltip from "@/play/MapTooltip.vue";
+import Metalob from "@/play/Metalob.vue";
 
 const routes = [
   {
@@ -39,6 +40,11 @@ const routes = [
         path: "/map-tooltip",
         name: "MapTooltip",
         component: MapTooltip,
+      },
+      {
+        path: "/metalob",
+        name: "Metalob",
+        component: Metalob,
       },
     ],
   },
